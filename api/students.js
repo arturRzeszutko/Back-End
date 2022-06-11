@@ -1,22 +1,8 @@
 import express from "express";
-import sql from 'mssql';
+import sql from "mssql";
+import { config } from "./../modules/config.mjs";
 
 const router = express.Router();
-
-const config = {
-  server: '127.0.0.1',
-  user: 'admin',
-  password: 'admin',
-  database: 'university',
-  pool: {
-    max: 10,
-    min: 0,
-    idleTimeoutMillis: 30000
-  },
-  options: {
-    trustServerCertificate: true
-  }
-}
 
 router.get('/get-all', async (req, res) => {
 	try{
@@ -29,7 +15,7 @@ router.get('/get-all', async (req, res) => {
 	}catch(err){
 		console.log(err);
 	}
-})
+});
 
 router.get('/get-one/:student_id', async (req, res) => {
 	try{
@@ -43,6 +29,6 @@ router.get('/get-one/:student_id', async (req, res) => {
 	}catch(err){
 		console.log(err);
 	}
-})
+});
 
 export default router;
