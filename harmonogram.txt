@@ -1,0 +1,12 @@
+1 utworzyć podstawowy szablon aplikacji
+2 utworzyć bazę danych 
+3 podłączyć bazę danych do aplikacji z osobnym plikiem konfiguracyjnym 
+4 utworzyć podstawowe zapytania do bazy (post get push itd)
+5 utworzyć intefejs logowana i rejestracji (wygląd)
+6 utworzyć system logowania
+7 utworzyć system rejestracji
+8 zaimplementować mikroserwis (publisher/customer)
+9 dodać kolejkowanie z komunikatami mikroserwisu 
+10 zbudować wersję produkcyjną (Docker)
+11 utworzuć dokumentacja aplikacji ze zdjęciami
+
