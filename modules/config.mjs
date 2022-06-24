@@ -1,3 +1,4 @@
+//config file for database connection
 export const config = {
   server: '127.0.0.1',
   user: 'admin',
