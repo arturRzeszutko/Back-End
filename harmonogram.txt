@@ -5,7 +5,7 @@
 5 utworzyć intefejs logowana i rejestracji (wygląd)
 6 utworzyć system logowania
 7 utworzyć system rejestracji
-8 zaimplementować mikroserwis (publisher/customer)
+8 zaimplementować mikroserwis (publisher/consumer)
 9 dodać kolejkowanie z komunikatami mikroserwisu 
 10 zbudować wersję produkcyjną (Docker)
 11 utworzuć dokumentacja aplikacji ze zdjęciami
