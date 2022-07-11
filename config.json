@@ -1,0 +1,18 @@
+﻿{
+    "dbName": "university",
+    "dbConfig": {
+        "server": "localhost",
+        "options": {
+            "port": 1433,
+            "trustServerCertificate": true
+        },
+        "authentication": {
+            "type": "default",
+            "options": {
+                "userName": "admin",
+                "password": "admin"
+            }
+        }
+    },
+    "secret": "yes"
+}

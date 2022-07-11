@@ -9,4 +9,3 @@
 9 dodać kolejkowanie z komunikatami mikroserwisu 
 10 zbudować wersję produkcyjną (Docker)
 11 utworzuć dokumentacja aplikacji ze zdjęciami
-
